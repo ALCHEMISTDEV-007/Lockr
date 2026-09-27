@@ -1,5 +1,16 @@
 # Lockr
 
+
+![Status](https://img.shields.io/badge/status-in%20development-orange)
+![Platform](https://img.shields.io/badge/platform-Android-green)
+![Kotlin](https://img.shields.io/badge/Kotlin-Android-purple)
+
+
+# NOTE
+> ⚠️ **Work in Progress:** Lockr is currently under active development.
+> The current implementation has not yet been fully verified on physical
+> devices. Expect incomplete features and breaking changes.
+
 **Minimal. Private. Yours.**
 
 Lockr is an offline Android app-locker prototype built with Kotlin, Jetpack Compose, and Material 3. It is designed around a small, local app selector and an honest security model. The current implementation includes persistent app selection, best-effort foreground package monitoring, a PIN/biometric authentication flow, and in-memory package sessions. It does **not provide guaranteed app interception**.
